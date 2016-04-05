@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="1">
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/home"
+        android:gravity="center"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_weight="1.65">
+
+    </TextView>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.50">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="33dp"
+            android:layout_height="35dp"
+            android:text="-"
+            android:id="@+id/button3"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:background="@drawable/round_button"
+            android:textSize="25dp"
+            android:clickable="true"
+
+            android:shadowColor="#000000" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:editable="false"
+            android:text="0" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:clickable="true"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:background="@drawable/round_button"
+            android:text="+"
+            android:id="@+id/button4" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

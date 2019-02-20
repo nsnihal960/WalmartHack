@@ -11,6 +11,7 @@ public class Cart {
     public static String time = "";
     public static boolean lever = true;
     private static List<DisplayItem> items= new ArrayList<DisplayItem>();
+//Public static variable found. Fire him now!!
     public static int cartCount = 0;
 
     public static int getCartCount() {

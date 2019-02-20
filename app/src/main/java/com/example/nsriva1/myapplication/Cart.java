@@ -7,6 +7,7 @@ import java.util.ArrayList;
  * Created by nsriva1 on 3/31/16.
  */
 public class Cart {
+//This is wrong way to name a variable
     public static String time = "";
     public static boolean lever = true;
     private static List<DisplayItem> items= new ArrayList<DisplayItem>();
